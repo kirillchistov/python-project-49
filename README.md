@@ -3,7 +3,7 @@
 
 ## Step 1: Initialize the package. 
 DOD: executable file, printing 'Welcome to the Brain Games!' when launched.
-Pre-requisites: Python3.6+, pip 19+, poetry 1.2.0+
+- Pre-requisites: Python3.6+, pip 19+, poetry 1.2.0+
 1. Clone git@github.com:kirillchistov/python-project-49.git
 2. Initialize hexlet-code with poetry
 3. Create /brain-games and /brain-games/scripts
@@ -12,6 +12,13 @@ Pre-requisites: Python3.6+, pip 19+, poetry 1.2.0+
 6. Create /brain-games/scripts/brain_games.py with main function
 7. Poetry install the package and test if it works
 
-## TODO Step 2: Prepare to publish the package
-DOD: package will represent executable program accessible through brain-games command
+## Step 2: Prepare to publish the package
+DOD: package will represent executable program accessible via 'brain-games' command
+1. Add shebang to /brain-games/scripts/brain_games.py
+2. Create /Makefile with install, build, publish, package-install commands
+3. Build package and debug publication
+4. Install the package with make package-install and test brain-games in bash
+5. Git push the repository
 
+## TODO Step 3: Work with external library
+DOD: Integrate the library to interact with a user (Ask the name and greet).
