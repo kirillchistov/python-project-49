@@ -1,5 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/kirillchistov/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/kirillchistov/python-project-49/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d922981a966fe718675c/maintainability)](https://codeclimate.com/github/kirillchistov/python-project-49/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/d922981a966fe718675c/test_coverage)](https://codeclimate.com/github/kirillchistov/python-project-49/test_coverage)
 
 ## Step 1: Initialize the package. 
 DOD: executable file, printing 'Welcome to the Brain Games!' when launched.
@@ -31,10 +33,15 @@ DOD: Integrate the library to interact with a user (Ask the name and greet).
 ## Step 4: Code quality
 DOD: Integrade code quality tracking services and linter
 1. Register with CodeQuality (Quality branch)
-2. Connect the repo and add [![Code Climate](https://codeclimate.com/github/dwyl/esta/badges/gpa.svg)](https://codeclimate.com/github/dwyl/esta) badge
+2. Connect the repo and add [![Maintainability](https://api.codeclimate.com/v1/badges/d922981a966fe718675c/maintainability)](https://codeclimate.com/github/kirillchistov/python-project-49/maintainability) badge
 3. Add flake8 dependency (poetry add --group dev flake8)
 4. Add setup.cfg from the [hexlet boilerplate](https://github.com/hexlet-boilerplates/python-package/blob/main/setup.cfg) and check if 'poetry run flake8 brain_games' works
 5. Add Make lint command to launch poetry run flake8 brain_games and correct all linter errors
 
 ## TODO Step 5: "Even check"
 DOD: the program will prompt the user to answer 'yes' to even, 'no' to odd numbers
+1. Add brain_games/scripts/brain_even.py with the game logic
+2. Don't touch the previously added brain_games/cli.py, brain_games/scripts/brain_games.py.
+3. Update [tool.poetry.scripts] in pyproject.toml with brain_games.py script
+4. Build and debug publish to make sure that brain-even command launches the game
+5. Record, publish and link the asciinema of package installation, game launch, user winning and losing episodes in README.md
