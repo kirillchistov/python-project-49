@@ -28,5 +28,13 @@ DOD: Integrate the library to interact with a user (Ask the name and greet).
 4. Build package
 5. Debug publication
 
-## TODO Step 4: Code quality
+## Step 4: Code quality
 DOD: Integrade code quality tracking services and linter
+1. Register with CodeQuality (Quality branch)
+2. Connect the repo and add [![Code Climate](https://codeclimate.com/github/dwyl/esta/badges/gpa.svg)](https://codeclimate.com/github/dwyl/esta) badge
+3. Add flake8 dependency (poetry add --group dev flake8)
+4. Add setup.cfg from the [hexlet boilerplate](https://github.com/hexlet-boilerplates/python-package/blob/main/setup.cfg) and check if 'poetry run flake8 brain_games' works
+5. Add Make lint command to launch poetry run flake8 brain_games and correct all linter errors
+
+## TODO Step 5: "Even check"
+DOD: the program will prompt the user to answer 'yes' to even, 'no' to odd numbers
