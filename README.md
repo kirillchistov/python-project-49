@@ -39,7 +39,7 @@ DOD: Integrade code quality tracking services and linter
 5. Add Make lint command to launch poetry run flake8 brain_games and correct all linter errors
 
 ## TODO Step 5: "Even check"
-DOD: the program will prompt the user to answer 'yes' to even, 'no' to odd numbers
+DOD: the program will prompt the user to answer 'yes' to even, 'no' to odd numbers, print results
 1. Add brain_games/scripts/brain_even.py with the game logic
 2. Don't touch the previously added brain_games/cli.py, brain_games/scripts/brain_games.py.
 3. Update [tool.poetry.scripts] in pyproject.toml with brain_games.py script
