@@ -2,6 +2,7 @@
 [![Actions Status](https://github.com/kirillchistov/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/kirillchistov/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d922981a966fe718675c/maintainability)](https://codeclimate.com/github/kirillchistov/python-project-49/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/d922981a966fe718675c/test_coverage)](https://codeclimate.com/github/kirillchistov/python-project-49/test_coverage)
+[![asciicast](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm.svg)](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm)
 
 ## Step 1: Initialize the package. 
 DOD: executable file, printing 'Welcome to the Brain Games!' when launched.
@@ -44,4 +45,6 @@ DOD: the program will prompt the user to answer 'yes' to even, 'no' to odd numbe
 2. Don't touch the previously added brain_games/cli.py, brain_games/scripts/brain_games.py.
 3. Update [tool.poetry.scripts] in pyproject.toml with brain_games.py script
 4. Build and debug publish to make sure that brain-even command launches the game
-5. Record, publish and link the asciinema of package installation, game launch, user winning and losing episodes in README.md
+5. Record, publish and link the asciinema of package installation, game launch, user winning and losing episodes in README.md: [![asciicast](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm.svg)](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm)
+
+## Step 6: "Calculator game"

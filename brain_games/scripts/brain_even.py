@@ -1,6 +1,7 @@
 import prompt
 from random import randint
 
+
 def welcome_user():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -9,17 +10,17 @@ def welcome_user():
 
 
 def even_check(number):
-# return 'yes' if number % 2 == 0 else: return 'no'
+    # return 'yes' if number % 2 == 0 else: return 'no'
     if number % 2 == 0:
         return 'yes'
-    else: 
+    else:
         return 'no'
 
 
 def randomize():
     random_number = randint(0, 99)
     return random_number
-    
+
 
 def brain_even():
     name = welcome_user()
@@ -27,12 +28,12 @@ def brain_even():
     guess_in_row = 0
     while guess_in_row < 3:
         random_number = randomize()
-        print('Question:',{random_number})
+        print('Question:', {random_number})
         user_guess = prompt.string('Your answer: ')
         if (random_number % 2 == 0):
             if user_guess == 'yes':
                 print('Correct!')
-                guess_in_row += 1    
+                guess_in_row += 1
             else:
                 print('"yes" is wrong answer;(.')
                 print('Correct answer was "no".')
@@ -41,7 +42,7 @@ def brain_even():
         elif (random_number % 2 != 0):
             if user_guess == 'no':
                 print('Correct!')
-                guess_in_row += 1    
+                guess_in_row += 1
             else:
                 print('"no" is wrong answer;(.')
                 print('Correct answer was "yes".')
@@ -50,6 +51,7 @@ def brain_even():
     if guess_in_row == 3:
         print(f'Congratulations, {name}!')
         return None
+
 
 def main():
     brain_even()
