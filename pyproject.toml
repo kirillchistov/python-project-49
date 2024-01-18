@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "first hexlet project"
+description = "first hexlet console games project"
 authors = ["Kirill Chistov <kirill.v.chistov@yandex.ru>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
-  { include = "brain_even" },
-  { include = "brain_calc" }
+  #  { include = "brain_even" },
+  #  { include = "brain_calc" }
 ]
 
 [tool.poetry.dependencies]
@@ -21,7 +21,6 @@ brain-calc = "brain_games.scripts.brain_calc:main"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^7.0.0"
-prompt = "^0.4.1"
 
 [build-system]
 requires = ["poetry-core"]
