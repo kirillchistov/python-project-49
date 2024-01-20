@@ -6,7 +6,7 @@ from math import gcd
 
 def brain_gcd():
     name = welcome_user()
-    print('Find the greatest common divisor of given numbers')
+    print('Find the greatest common divisor of given numbers.')
     guess_in_row = 0
 
     while guess_in_row < 3:
