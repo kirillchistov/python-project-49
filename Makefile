@@ -19,14 +19,21 @@ brain-progression:
 brain-prime:
 	poetry run brain-prime
 
-build:
-	poetry build
+lint:
+	poetry run flake8 brain_games
+
+selfcheck:
+	poetry check
+
+check: selfcheck lint
+
+build: check
+	   poetry build
 
 package-install:
 	python3 -m pip install --user dist/*.whl
 
-lint:
-	poetry run flake8 brain_games
-
 publish:
 	poetry publish --dry-run
+
+.PHONY: install lint selfcheck check build
