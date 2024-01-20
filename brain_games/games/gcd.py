@@ -1,8 +1,11 @@
 import prompt
 from random import randint
-from random import choice
+from math import gcd
 #  from brain_games.cli import welcome_user
-
+#  DOD: calculate GCD of two random numbers
+#  What it does: cycle division of a and b until we get b = zero.
+#  Inside the cycle we swap a and b so a becomes the remainder of the division
+#  
 
 def welcome_user():
     print('Welcome to the Brain Games!')
@@ -10,25 +13,31 @@ def welcome_user():
     print(f'Hello, {name}!')
     return name
 
+#  def find_gcd(rnd_num_1, rnd_num_2):
+#    if rnd_num_2 == 0:
+#        return rnd_num_1
+#    else:
+#        while rnd_num_2:
+#            rnd_num_1, rnd_num_2 = rnd_num_2, rnd_num_1 % rnd_num_2
+#            return rnd_num_1
 
-def brain_calc():
+
+def brain_gcd():
     name = welcome_user()
-    print('What is the result of the expression?')
+    print('Find the greatest common divisor of given numbers')
     guess_in_row = 0
-    expr_list = ['+', '-', '*']
 
     while guess_in_row < 3:
         rnd_num_1 = randint(1, 100)
-        rnd_oper = choice(expr_list)
         rnd_num_2 = randint(1, 100)
-        rnd_exp = f'{rnd_num_1} {rnd_oper} {rnd_num_2}'
-        rnd_exp_result = eval(rnd_exp)
+        rnd_exp = f'{rnd_num_1} {rnd_num_2}'
+        rnd_exp_result = gcd(rnd_num_1, rnd_num_2)
         rer = rnd_exp_result
 
         print(f'Question: {rnd_exp}')
         user_guess = int(prompt.string('Your answer: '))
         ug = user_guess
-        # print(f'{rnd_exp_result} vs {user_guess}')
+        # print(f'{rer} vs {ug}')
 
         if (user_guess == rnd_exp_result):
             print('Correct!')

@@ -18,7 +18,7 @@ def even_check(number):
 
 
 def randomize():
-    random_number = randint(0, 99)
+    random_number = randint(0, 100)
     return random_number
 
 

@@ -3,7 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/d922981a966fe718675c/maintainability)](https://codeclimate.com/github/kirillchistov/python-project-49/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/d922981a966fe718675c/test_coverage)](https://codeclimate.com/github/kirillchistov/python-project-49/test_coverage)
 [![asciicast](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm.svg)](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm)
-[![asciicast](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU.svg)](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU)
+[![asciicast](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU.svg)](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS)
 
 ## Step 1: Initialize the package. 
 [x] DOD: executable file, printing 'Welcome to the Brain Games!' when launched.
@@ -52,9 +52,22 @@
 [x] DOD: the program will calculate random math expression and print correct result
 [x] Add /scripts/brain_calc.py with [game logic](https://ru.hexlet.io/projects/49/members/36039?step=6)
 [x] Streamline architecture and file structure (/games) so that the logic is centralized and manageable
-[x] Add [tool.poetry.scripts] section to pyproject.toml
+[x] Add [tool.poetry.scripts] section entry for calc to pyproject.toml
 [x] Build, debug publish and test the game, add asciinema to README.md
 [asciinema](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU)
 
 ## TODO Step 7: "NOD game" (greatest common divisor)
-[] DOD: the program will calculate and print GCD of two random numbers
+[x] DOD: the program will calculate and print GCD of two random numbers
+[x] Add /scripts/brain_gcd.py with [game logic](https://ru.hexlet.io/projects/49/members/36039?step=7)
+[x] Streamline architecture and file structure (/games) so that the logic is centralized and manageable
+[x] Add [tool.poetry.scripts] section entry for gcd to pyproject.toml
+[x] Build, debug publish and test the game, add asciinema to README.md
+[asciinema](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS)
+
+## TODO Step 8: "Brain Progression"
+[] DOD: the program will show sequence of numbers with missing numbers. The user has to guess them
+[] Add with the [game logic](https://ru.hexlet.io/projects/49/members/36039?step=8)
+[] Streamline architecture and file structure (/games) so that the logic is centralized and manageable
+[] Add [tool.poetry.scripts] section entry for progression to pyproject.toml
+[] Build, debug publish and test the game, add asciinema to README.md
+[asciinema](https://asciinema.org/)
