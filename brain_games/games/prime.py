@@ -6,14 +6,14 @@ from random import randint
 def prime_check(number):
     # return 'yes' if prime else return 'no'
     correct_answer = 'yes'
-    
+
     if number < 2:
         correct_answer = 'no'
-    
+
     for i in range(2, number):
-        if (number % i) == 0:               
+        if (number % i) == 0:
             correct_answer = 'no'
-    return correct_answer       
+    return correct_answer
 
 
 def randomize():
