@@ -7,11 +7,11 @@
 
 [![asciicast](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU.svg)](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU)
 
-[!asciicast](https://asciinema.org/a/CncHybP2ROvOMYz316ztqrnTo.svg)](https://asciinema.org/a/CncHybP2ROvOMYz316ztqrnTo)
+[![asciicast](https://asciinema.org/a/CncHybP2ROvOMYz316ztqrnTo.svg)](https://asciinema.org/a/CncHybP2ROvOMYz316ztqrnTo)
 
-[!asciicast](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS.svg)](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS)
+[![asciicast](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS.svg)](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS)
 
-[asciicast](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt.svg)](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt)
+[![asciicast](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt.svg)](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt)
 
 ## Step 1: Initialize the package. 
 *[x] DOD: executable file, printing 'Welcome to the Brain Games!' when launched.
