@@ -28,7 +28,7 @@ def brain_prime():
 
     while guess_in_row < 3:
         random_number = randomize()
-        print('Question:', {random_number})
+        print(f'Question: {random_number}')
         user_answer = prompt.string('Your answer: ')
         ua = user_answer
         correct_answer = prime_check(random_number)
