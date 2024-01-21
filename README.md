@@ -58,35 +58,35 @@
 
 ## Step 6: "Calculator game"
 * [x] DOD: the program will calculate random math expression and print correct result
-* [x] Add /scripts/brain_calc.py with [game logic](https://ru.hexlet.io/projects/49/members/36039?step=6)
+* [x] Add /scripts/brain_calc.py and games/calc.py with the [game logic](https://ru.hexlet.io/projects/49/members/36039?step=6)
 * [x] Add [tool.poetry.scripts] section entry for calc to pyproject.toml
 * [x] Build, debug publish and test the game, add asciinema to README.md
 [asciinema](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU)
 
 ## TODO Step 7: "NOD game" (greatest common divisor)
 * [x] DOD: the program will calculate and print GCD of two random numbers
-* [x] Add /scripts/brain_gcd.py with [game logic](https://ru.hexlet.io/projects/49/members/36039?step=7)
+* [x] Add /scripts/brain_gcd.py and games/gcd.py with the [game logic](https://ru.hexlet.io/projects/49/members/36039?step=7)
 * [x] Add [tool.poetry.scripts] section entry for gcd to pyproject.toml
 * [x] Build, debug publish and test the game, add asciinema to README.md
 [asciinema](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS)
 
 ## Step 8: "Brain Progression"
 * [x] DOD: the program will show sequence of numbers with missing numbers. The user has to guess them
-* [x] Add with the [game logic](https://ru.hexlet.io/projects/49/members/36039?step=8)
+* [x] Add /scripts/brain_progression.py and games/progression.py with the [game logic](https://ru.hexlet.io/projects/49/members/36039?step=8)
 * [x] Add [tool.poetry.scripts] section entry for progression to pyproject.toml
 * [x] Build, debug publish and test the game, add asciinema to README.md
 [asciinema](https://asciinema.org/a/CncHybP2ROvOMYz316ztqrnTo)
 
 ## Step 9*: "Prime"
 * [x] DOD: the program will show a random number. The user has to guess if it's prime or not
-* [x] Add with the [game logic](https://ru.hexlet.io/projects/49/members/36039?step=9)
+* [x] Add /scripts/brain_prime.py and games/prime.py with the [game logic](https://ru.hexlet.io/projects/49/members/36039?step=9)
 * [x] Add [tool.poetry.scripts] section entry for prime to pyproject.toml
 * [x] Build, debug publish and test the game, add asciinema to README.md
 [asciinema](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt)
-* [] Streamline architecture and file structure (/games) so that the logic is centralized and manageable
+* [ ] Streamline architecture and file structure (/games) so that the logic is centralized and manageable
 
 ## TODO: Streamline the project
-* [] DOD: move all repeating code to separate functions
-* [] Move dialog strings to constants
-* [] Move round management to a separate function
-* [] Move expression evaluation to a separate module functions with Switch logic
+* [ ] DOD: move all repeating code to separate functions
+* [ ] Move dialog strings to constants
+* [ ] Move round management to a separate function
+* [ ] Move expression evaluation to a separate module functions with Switch logic
