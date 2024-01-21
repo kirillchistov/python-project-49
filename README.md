@@ -3,16 +3,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/d922981a966fe718675c/maintainability)](https://codeclimate.com/github/kirillchistov/python-project-49/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/d922981a966fe718675c/test_coverage)](https://codeclimate.com/github/kirillchistov/python-project-49/test_coverage)
 
-[![asciicast](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm.svg)](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm)
-
-[![asciicast](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU.svg)](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU)
-
-[![asciicast](https://asciinema.org/a/CncHybP2ROvOMYz316ztqrnTo.svg)](https://asciinema.org/a/CncHybP2ROvOMYz316ztqrnTo)
-
-[![asciicast](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS.svg)](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS)
-
-[![asciicast](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt.svg)](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt)
-
 ## Step 1: Initialize the package. 
 * [x] DOD: executable file, printing 'Welcome to the Brain Games!' when launched.
 - Pre-requisites: Python3.6+, pip 19+, poetry 1.2.0+
@@ -56,12 +46,16 @@
 * [x] Build and debug publish to make sure that brain-even command launches the game
 * [x] Record, publish and link the [asciinema](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm) of package installation, game launch, user winning and losing episodes in README.md
 
+[![asciicast](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm.svg)](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm)
+
 ## Step 6: "Calculator game"
 * [x] DOD: the program will calculate random math expression and print correct result
 * [x] Add /scripts/brain_calc.py and games/calc.py with the [game logic](https://ru.hexlet.io/projects/49/members/36039?step=6)
 * [x] Add [tool.poetry.scripts] section entry for calc to pyproject.toml
 * [x] Build, debug publish and test the game, add asciinema to README.md
 [asciinema](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU)
+
+[![asciicast](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU.svg)](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU)
 
 ## TODO Step 7: "NOD game" (greatest common divisor)
 * [x] DOD: the program will calculate and print GCD of two random numbers
@@ -70,6 +64,8 @@
 * [x] Build, debug publish and test the game, add asciinema to README.md
 [asciinema](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS)
 
+[![asciicast](https://asciinema.org/a/CncHybP2ROvOMYz316ztqrnTo.svg)](https://asciinema.org/a/CncHybP2ROvOMYz316ztqrnTo)
+
 ## Step 8: "Brain Progression"
 * [x] DOD: the program will show sequence of numbers with missing numbers. The user has to guess them
 * [x] Add /scripts/brain_progression.py and games/progression.py with the [game logic](https://ru.hexlet.io/projects/49/members/36039?step=8)
@@ -77,13 +73,17 @@
 * [x] Build, debug publish and test the game, add asciinema to README.md
 [asciinema](https://asciinema.org/a/CncHybP2ROvOMYz316ztqrnTo)
 
-## Step 9*: "Prime"
+[![asciicast](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS.svg)](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS)
+
+## Step 9: "Prime number"
 * [x] DOD: the program will show a random number. The user has to guess if it's prime or not
 * [x] Add /scripts/brain_prime.py and games/prime.py with the [game logic](https://ru.hexlet.io/projects/49/members/36039?step=9)
 * [x] Add [tool.poetry.scripts] section entry for prime to pyproject.toml
 * [x] Build, debug publish and test the game, add asciinema to README.md
 [asciinema](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt)
 * [ ] Streamline architecture and file structure (/games) so that the logic is centralized and manageable
+
+[![asciicast](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt.svg)](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt)
 
 ## TODO: Streamline the project
 * [ ] DOD: move all repeating code to separate functions
