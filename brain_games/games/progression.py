@@ -1,7 +1,6 @@
 import prompt
 from random import randint
-from brain_games.welcome import welcome_user
-#  DOD: guess the number missing in given progression
+from brain_games.cli import welcome_user
 
 
 def brain_progression():
