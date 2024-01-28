@@ -1,42 +1,19 @@
-from brain_games.cli import welcome_user
-import prompt
+# import prompt
 from random import randint
 
-
-def even_check(number):
-    # return 'yes' if number % 2 == 0 else: return 'no'
-    if number % 2 == 0:
-        return 'yes'
-    else:
-        return 'no'
-
-
-def randomize():
-    random_number = randint(0, 100)
-    return random_number
+GAME_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def brain_even():
-    name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    guess_in_row = 0
+    global correct_answer
+    random_num = randint(0, 100)
+    if random_num % 2 == 0:
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+    print(print(f'Question: {random_num}'))
+    return correct_answer
 
-    while guess_in_row < 3:
-        random_number = randomize()
-        print(f'Question: {random_number}')
-        user_answer = prompt.string('Your answer: ')
-        ua = user_answer
-        correct_answer = even_check(random_number)
-        ca = correct_answer
-        if user_answer == correct_answer:
-            print('Correct!')
-            guess_in_row += 1
-        else:
-            print(f'{ua} is wrong answer;(. Correct answer was {ca}.')
-            print(f"Let's try again, {name}!")
-            guess_in_row = 0
-            return None
 
-    if guess_in_row == 3:
-        print(f'Congratulations, {name}!')
-        return None
+def main():
+    brain_even()

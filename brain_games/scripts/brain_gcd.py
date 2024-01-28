@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-#  from brain_games.cli import welcome_user
-from brain_games.games.gcd import brain_gcd
+import brain_games.engine as engine
+import brain_games.games.gcd as brain_gcd
 
 
 def main():
-    brain_gcd()
+    engine.play_game(brain_gcd)
 
 
 if __name__ == '__main__':
