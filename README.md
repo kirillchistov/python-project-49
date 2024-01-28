@@ -81,12 +81,12 @@
 * [x] Add [tool.poetry.scripts] section entry for prime to pyproject.toml
 * [x] Build, debug publish and test the game, add asciinema to README.md
 [asciinema](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt)
-* [ ] Streamline architecture and file structure (/games) so that the logic is centralized and manageable
+* [x] Streamline architecture and file structure (/games) so that the logic is centralized and manageable
 
 [![asciicast](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt.svg)](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt)
 
 ## TODO: Streamline the project
-* [ ] DOD: move all repeating code to separate functions
-* [ ] Move dialog strings to constants
-* [ ] Move round management to a separate function
-* [ ] Move expression evaluation to a separate module functions with Switch logic
+* [x] DOD: move all repeating code to separate functions
+* [x] Move dialog strings to constants
+* [x] Move round management to a separate function
+* [x] Move expression evaluation to a separate module functions with Switch logic
