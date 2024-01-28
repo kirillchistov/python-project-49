@@ -5,6 +5,7 @@ GAME_DESCRIPTION = 'What number is missing in the progression?'
 
 
 def brain_progression():
+    global correct_answer
     random_num_1 = randint(1, 50)
     random_step = randint(1, 10)
     exp_len = randint(7, 10)

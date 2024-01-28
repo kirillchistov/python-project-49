@@ -11,7 +11,7 @@ def brain_even():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    print(print(f'Question: {random_num}'))
+    print(f'Question: {random_num}')
     return correct_answer
 
 
