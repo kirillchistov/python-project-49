@@ -18,23 +18,19 @@ def play_game(game):
     # question = game.GAME_QUESTION
     print(description)
 
-    rounds_won = 0  # start counting wins in a row
+    # rounds_won = 0  # start counting wins in a row
     for r in range(ROUNDS_TO_WIN):
         game.main()
         question, correct_answer = game.brain_play()
         ca = correct_answer  # get correct answer from game
         print(f'Question: {question}')
         ug = input("Your answer: ")  # user guess
-        if str(ug) == str(ca):
-            print("Correct!")
-            rounds_won += 1
-        else:
-            rounds_won = 0
+        if str(ug) != str(ca):
             print(f"'{ug}' is wrong answer ;(. ", end='')
             print(f"Correct answer was '{ca}'.")
             print(f"Let's try again, {name}!")
             return
-
-    if rounds_won == 3:
+        print("Correct!")
+    else:
         print(f'Congratulations, {name}!')
         return
