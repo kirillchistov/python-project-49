@@ -1,11 +1,10 @@
 # import prompt
 from random import randint
 
-GAME_DESCRIPTION = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
-def brain_play():
-    # global correct_answer
+def q_and_a():
     random_num_1 = randint(1, 50)
     random_step = randint(1, 10)
     exp_len = randint(7, 10)
@@ -15,9 +14,4 @@ def brain_play():
     correct_answer = int(exp_progression[random_pos])
     exp_progression[random_pos] = '..'
     question = " ".join(map(str, exp_progression))
-    # print(f'Question: {random_exp}')
     return question, correct_answer
-
-
-def main():
-    brain_play()

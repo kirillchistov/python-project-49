@@ -14,23 +14,17 @@ def play_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    description = game.GAME_DESCRIPTION
-    # question = game.GAME_QUESTION
-    print(description)
-
-    # rounds_won = 0  # start counting wins in a row
-    for r in range(ROUNDS_TO_WIN):
-        game.main()
-        question, correct_answer = game.brain_play()
-        ca = correct_answer  # get correct answer from game
+    print(game.DESCRIPTION)
+    for _ in range(ROUNDS_TO_WIN):
+        #  game.main()
+        question, correct_answer = game.q_and_a()
         print(f'Question: {question}')
-        ug = input("Your answer: ")  # user guess
-        if str(ug) != str(ca):
-            print(f"'{ug}' is wrong answer ;(. ", end='')
-            print(f"Correct answer was '{ca}'.")
+        user_guess = input("Your answer: ")
+        if str(user_guess) != str(correct_answer):
+            print(f"'{user_guess}' is wrong answer ;(. ", end='')
+            print(f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
         print("Correct!")
     else:
         print(f'Congratulations, {name}!')
-        return
