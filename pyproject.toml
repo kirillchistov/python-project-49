@@ -6,11 +6,6 @@ authors = ["Kirill Chistov <kirill.v.chistov@yandex.ru>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
-  #  { include = "brain_even" },
-  #  { include = "brain_calc" },
-  #  { include = "brain_gcd" },
-  #  { include = "brain_progression" },
-  #  { include = "brain_prime" },
 ]
 
 [tool.poetry.dependencies]

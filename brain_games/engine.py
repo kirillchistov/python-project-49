@@ -7,22 +7,23 @@ Common logic for games: 1. Ask the user name and 2. print Welcome
 """
 import prompt
 
-GAMES_WELCOME = 'Welcome to the Brain Games!'
-GAMES_ASKNAME = 'May I have your name? '
-WRONG_ANSWER = 'is wrong answer;(. Correct answer was'
+ROUNDS_TO_WIN = 3
 
 
 def play_game(game):
-    print(GAMES_WELCOME)
-    name = prompt.string(GAMES_ASKNAME)
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     description = game.GAME_DESCRIPTION
+    # question = game.GAME_QUESTION
     print(description)
 
     rounds_won = 0  # start counting wins in a row
-    while rounds_won < 3:
+    for r in range(ROUNDS_TO_WIN):
         game.main()
-        ca = game.correct_answer  # get correct answer from game
+        question, correct_answer = game.brain_play()
+        ca = correct_answer  # get correct answer from game
+        print(f'Question: {question}')
         ug = input("Your answer: ")  # user guess
         if str(ug) == str(ca):
             print("Correct!")

@@ -1,31 +1,35 @@
 # import prompt
 from random import randint
+import math
 
 GAME_DESC1 = 'Answer "yes" if given number is prime.'
 GAME_DESC2 = 'Otherwise answer "no".'
 GAME_DESCRIPTION = f'{GAME_DESC1} {GAME_DESC2}'
 
 
-def prime_check(number):
+def is_prime(number):
     # return 'yes' if prime else return 'no'
-    correct_answer = 'yes'
 
     if number < 2:
-        correct_answer = 'no'
+        return False
 
-    for i in range(2, number):
+    for i in range(2, int(math.sqrt(number)) + 1):
         if (number % i) == 0:
-            correct_answer = 'no'
-    return correct_answer
+            return False
+    return True
 
 
-def brain_prime():
-    global correct_answer
-    random_num = randint(1, 100)
-    correct_answer = prime_check(random_num)
-    print(f'Question: {random_num}')
-    return correct_answer
+def brain_play():
+    # global correct_answer
+    question = randint(1, 100)
+    # correct_answer = is_prime(question)
+    if is_prime(question):
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+    # print(f'Question: {question}')
+    return question, correct_answer
 
 
 def main():
-    brain_prime()
+    brain_play()
