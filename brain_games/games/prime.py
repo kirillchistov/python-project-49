@@ -2,9 +2,8 @@
 from random import randint
 import math
 
-GAME_DESC1 = 'Answer "yes" if given number is prime.'
-GAME_DESC2 = 'Otherwise answer "no".'
-DESCRIPTION = f'{GAME_DESC1} {GAME_DESC2}'
+DESCRIPTION = '''Answer "yes" if given number is prime.
+Otherwise answer "no".'''
 
 
 def is_prime(number):
@@ -17,7 +16,7 @@ def is_prime(number):
     return True
 
 
-def q_and_a():
+def get_data():
     question = randint(1, 100)
     if is_prime(question):
         correct_answer = 'yes'

@@ -17,14 +17,14 @@ def play_game(game):
     print(game.DESCRIPTION)
     for _ in range(ROUNDS_TO_WIN):
         #  game.main()
-        question, correct_answer = game.q_and_a()
+        question, correct_answer = game.get_data()
         print(f'Question: {question}')
         user_guess = input("Your answer: ")
-        if str(user_guess) != str(correct_answer):
+        if user_guess != correct_answer:
             print(f"'{user_guess}' is wrong answer ;(. ", end='')
             print(f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            return
+            break
         print("Correct!")
     else:
         print(f'Congratulations, {name}!')

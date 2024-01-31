@@ -10,28 +10,36 @@ Hexlet Python Developer training project.
 
 ### Games demonstration:
 #### Even or Odd
-[![asciicast](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm.svg)](https://asciinema.org/a/IFei1plp3YOf1V7D1XAhq2Ztm)
+[![asciicast](https://asciinema.org/a/dlQOtcH4vj3BaRuQO2RCoIeZe.svg)](https://asciinema.org/a/dlQOtcH4vj3BaRuQO2RCoIeZe)
 
 #### Calculator
-[![asciicast](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU.svg)](https://asciinema.org/a/tlFjvkcB4DDTVMcy0EO3satOU)
+[![asciicast](https://asciinema.org/a/E29QwWYPuXMewW1Or9MtxSPZe.svg)](https://asciinema.org/a/E29QwWYPuXMewW1Or9MtxSPZe)
 
 #### GCD
-[![asciicast](https://asciinema.org/a/CncHybP2ROvOMYz316ztqrnTo.svg)](https://asciinema.org/a/CncHybP2ROvOMYz316ztqrnTo)
+[![asciicast](https://asciinema.org/a/15PStstVD4fffAkQyiSkWaS2k.svg)](https://asciinema.org/a/15PStstVD4fffAkQyiSkWaS2k)
 
 #### Progression
-[![asciicast](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS.svg)](https://asciinema.org/a/ISpMbFYNaprK6sw0QqO4WRYxS)
+[![asciicast](https://asciinema.org/a/8WaUfbo0r1WZlRI5qVAhbJNTe.svg)](https://asciinema.org/a/8WaUfbo0r1WZlRI5qVAhbJNTe)
 
 #### Prime
-[![asciicast](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt.svg)](https://asciinema.org/a/4MakelJDELwQWNESNtDj7NHFt)
+[![asciicast](https://asciinema.org/a/1LcNS6IPgNUhitR4dnyUvfZsx.svg)](https://asciinema.org/a/1LcNS6IPgNUhitR4dnyUvfZsx)
 
 
 ### Requirements:
 python = "^3.9+", poetry = "^1.4.2", prompt = "^0.4.1"
 ```sh
 sudo apt install python3
+```
+```sh
 sudo apt -y install python3-pip
+```
+```sh
 python3 -m pip install --upgrade --user pip
+```
+```sh
 pipx install poetry
+```
+```sh
 pip install prompt 
 ```
 
@@ -43,6 +51,8 @@ git clone git@github.com:kirillchistov/python-project-49.git
 ### Install:
 ```sh
 cd python-project-49
+```
+```sh
 make install build package-install
 ```
 
