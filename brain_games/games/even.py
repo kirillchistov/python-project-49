@@ -8,7 +8,7 @@ def is_even(number):
     return number % 2 == 0
 
 
-def get_data():
+def generate_data():
     question = randint(0, 100)
     if is_even(question):
         correct_answer = 'yes'

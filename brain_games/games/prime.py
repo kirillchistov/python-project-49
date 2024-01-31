@@ -15,7 +15,7 @@ def is_prime(number):
     return True
 
 
-def get_data():
+def generate_data():
     question = randint(1, 100)
     if is_prime(question):
         correct_answer = 'yes'

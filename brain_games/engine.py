@@ -17,7 +17,7 @@ def play_game(game):
     print(game.DESCRIPTION)
     for _ in range(ROUNDS_TO_WIN):
         #  game.main()
-        question, correct_answer = game.get_data()
+        question, correct_answer = game.generate_data()
         print(f'Question: {question}')
         user_guess = input("Your answer: ")
         if user_guess != correct_answer:

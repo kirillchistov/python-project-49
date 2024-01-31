@@ -25,24 +25,6 @@ Hexlet Python Developer training project.
 [![asciicast](https://asciinema.org/a/1LcNS6IPgNUhitR4dnyUvfZsx.svg)](https://asciinema.org/a/1LcNS6IPgNUhitR4dnyUvfZsx)
 
 
-### Requirements:
-python = "^3.9+", poetry = "^1.4.2", prompt = "^0.4.1"
-```sh
-sudo apt install python3
-```
-```sh
-sudo apt -y install python3-pip
-```
-```sh
-python3 -m pip install --upgrade --user pip
-```
-```sh
-pipx install poetry
-```
-```sh
-pip install prompt 
-```
-
 ### Clone project:
 ```sh
 git clone git@github.com:kirillchistov/python-project-49.git
